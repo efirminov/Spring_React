@@ -1,6 +1,7 @@
 function Listing(){
     return(
-        <h1>Página de Formulário</h1>
+        <h1>Página de Listagem</h1>
     );
 }
+
 export default Listing;
