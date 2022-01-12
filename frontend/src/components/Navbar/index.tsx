@@ -1,9 +1,9 @@
-import {ReactComponent as GithubIcon} from 'assets/img/github.svg';
+import { ReactComponent as GithubIcon } from 'assets/img/github.svg';
 import './styles.css';
 
-function Navbar(){
-    
-    return(
+function Navbar() {
+
+    return (
         <header>
             <nav className="container">
                 <div className="dsmovie-nav-content">
@@ -11,7 +11,7 @@ function Navbar(){
                     <a href="https://github.com/efirminov/Spring_React/tree/master" target="_blank" rel="noreferrer">
                         <div className="dsmovie-contact-container">
                             <GithubIcon />
-                            <p className="dsmovie-contact-link">/devsuperior</p>
+                            <p className="dsmovie-contact-link">/efirminov</p>
                         </div>
                     </a>
                 </div>
